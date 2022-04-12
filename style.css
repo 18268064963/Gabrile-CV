@@ -1,0 +1,53 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #2;
+}
+
+li {
+float: left;
+border-right: 1px solid #bbb;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+body {
+/* Old browsers */
+background: #ffcccc;
+/* Chrome 10-25, Safari 5.1-6 */
+background: 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(-45deg, #35577D, #0040ff);
+margin: 0;
+padding: 0;
+}
+
+h1 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
+font-weight: 125;
+font-size: 80px;
+line-height: 50px;
+padding-bottom: 30px;
+text-align: center;
+width: 100%;
+}
+
+p {
+color: aliceblue;
+line-height: 2em;
+text-align: left;
+width: 70%;
+font-size: 20px;  
+}
